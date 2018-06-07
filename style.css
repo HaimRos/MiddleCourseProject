@@ -16,17 +16,26 @@
 }
 
 .pics-frame{
-   }
+
+}
+
+.pics-frame::after{
+    content: "";
+    display: block; 
+    clear: both;
+}
 
 .pic-frame{
     display: inline-block;
     width: 293px;
     height: 355px;
+    float:left;
  
    }
 
 .img{
     border-radius: 0 0 30px 0;
+    padding-left:18px;
 }
 
 
