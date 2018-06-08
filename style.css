@@ -9,16 +9,46 @@ body {
     text-align: right;
 }
 
+.header-container{
+    width: 900px;
+    height: 100%;
+    margin: 0;
+    margin: 0 auto;   
+}
+
+.logo{
+position: relative;
+top: 31px;
+text-decoration: none;
+}
+
+.lang-menu{
+position: absolute;
+left: 120px;
+top: 20px;
+}
+
+.search-box{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    
+}
+
+.header{
+    background-color: lightgrey;
+}
 /* start top menu */
 
 .menu-design {
     background-color: grey;
     font-family: arial;
-    padding-top:70px;
 }
 
 .nav-menu {
+    display: inline-block;
     font-size: 12px;
+
 }
 
 .dropdown-content {
@@ -76,6 +106,7 @@ ul {
 }
 
 /* end top menu */
+
 
 .main {
     width: 900px;
