@@ -14,6 +14,7 @@ body {
 .menu-design {
     background-color: grey;
     font-family: arial;
+    padding-top:70px;
 }
 
 .nav-menu {
@@ -83,7 +84,9 @@ ul {
     margin: 0 auto;
 }
 
-.pics-frame {}
+.pics-frame {
+    margin-top:30px;
+}
 
 .pics-frame::after {
     content: "";
@@ -91,14 +94,37 @@ ul {
     clear: both;
 }
 
-.pic-frame {
+.pic-frame-left {
     display: inline-block;
     width: 293px;
     height: 355px;
     float: left;
 }
 
+.pic-frame-middle {
+    display: inline-block;
+    width: 293px;
+    height: 355px;
+    float: center;
+    margin-right: 11px;
+}
+.pic-frame-right {
+    display: inline-block;
+    width: 293px;
+    height: 355px;
+    float: right;
+}
 .img {
     border-radius: 0 0 30px 0;
-    padding-left: 18px;
+}
+
+.card-div{
+    border: 2px solid lightgrey;
+    display: inline-block;
+    width:293px;
+
+    border-radius: 0 30px 0 0;
+}
+.card-pic{
+    display:inline-block;
 }
