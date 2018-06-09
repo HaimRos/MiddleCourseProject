@@ -136,6 +136,8 @@ ul {
     width: 293px;
     height: 355px;
     float: left;
+    border-radius: 0 0 30px 0;
+    background-image: url("images/פזקר_-291_354410564000.jpg");
 }
 
 .pic-frame-middle {
@@ -144,6 +146,8 @@ ul {
     height: 355px;
     float: center;
     margin-right: 11px;
+    border-radius: 0 0 30px 0;
+    background-image: url("images/Picture-046410251500.jpg");
 }
 
 .pic-frame-right {
@@ -151,25 +155,23 @@ ul {
     width: 293px;
     height: 355px;
     float: right;
+    border-radius: 0 0 30px 0;
+    background-image: url("images/1908364606615453350.JPG");
 }
 
-.img {
-    border-radius: 0 0 30px 0;
-}
+
 
 .pic-text-box {
-    display: inline-block;
-    position: relative;
-    top: -10px;
-    right: 7px;
     background-color: grey;
     border-radius: 0 0 30px 0;
-
     width: 90%;
     opacity: 0.8;
     color: white;
     padding-right:7px;
     float: right;
+    margin-top: 250px;
+    margin-right: 7px;
+    
 }
 
 
