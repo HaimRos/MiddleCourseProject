@@ -236,6 +236,12 @@ ul {
     display: inline-block;
 }
 
+.cardH{
+    font-size:14px;
+    text-decoration:bold;
+
+}
+
 .footer {
     position: fixed;
     bottom: 0;
