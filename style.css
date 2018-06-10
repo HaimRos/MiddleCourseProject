@@ -8,6 +8,7 @@ body {
     direction: rtl;
     text-align: right;
     font-family:arial;
+    overflow-x: hidden;
 }
 
 .header {
@@ -24,8 +25,8 @@ body {
 
 .logo {
     position: relative;
-    bottom: 5px;
-    right:0;
+    bottom: 4px;
+    right:-10px;
     text-decoration: none;
 }
 
@@ -54,7 +55,7 @@ body {
 .nav-menu {
     position: relative;    
     right: 150px;
-    top: -75px;
+    top: -68px;
     
 
 }
@@ -133,7 +134,7 @@ ul {
 
 .pic-frame-left {
     display: inline-block;
-    width: 293px;
+    width: 291px;
     height: 355px;
     float: left;
     border-radius: 0 0 30px 0;
@@ -142,21 +143,21 @@ ul {
 
 .pic-frame-middle {
     display: inline-block;
-    width: 293px;
+    width: 291px;
     height: 355px;
     float: center;
-    margin-right: 11px;
+    margin-right: 13px;
     border-radius: 0 0 30px 0;
     background-image: url("images/Picture-046410251500.jpg");
 }
 
 .pic-frame-right {
     display: inline-block;
-    width: 293px;
+    width: 291px;
     height: 355px;
     float: right;
     border-radius: 0 0 30px 0;
-    background-image: url("images/1908364606615453350.JPG");
+    background-image: url("images/1908364606615453350.JPG") ;
 }
 
 
@@ -165,11 +166,11 @@ ul {
     background-color: grey;
     border-radius: 0 0 30px 0;
     width: 90%;
-    opacity: 0.8;
+    opacity: 0.9;
     color: white;
     padding-right:7px;
     float: right;
-    margin-top: 250px;
+    margin-top: 255px;
     margin-right: 7px;
     
 }
@@ -193,7 +194,7 @@ ul {
 }
 
 .cards-frame {
-    margin-top: 30px;
+    margin-top: 5px;
     height: 370px;
 }
 
@@ -203,7 +204,9 @@ ul {
     height: 216px;
     border-radius: 0 30px 0 0;
     background-image: url("images/small_cube_bg.png");
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-right: 24px;
+    
 }
 
 .card-left {
@@ -212,36 +215,40 @@ ul {
 
 .card-mid {
     float: center;
-    margin-right: 11px;
+    margin-right: 13px;
 }
 
 .card-right {
     float: right;
+  
+}
+
+
+
+.cardH {
+    margin-bottom: 15px;
+}
+
+.card-pic {
+    float: right;
+    
+}
+
+.map-pic {
+    float:left;
+}
+
+.cardH{
+    font-size:14px;
+    color:#575757;
+    text-decoration:bold;
+
 }
 
 .cards-frame::after {
     content: "";
     display: block;
     clear: both;
-}
-
-.cardH {
-    display: inline-block;
-}
-
-.card-pic {
-    display: inline-block;
-    float: center;
-}
-
-.map-pic {
-    display: inline-block;
-}
-
-.cardH{
-    font-size:14px;
-    text-decoration:bold;
-
 }
 
 .footer {
