@@ -91,7 +91,8 @@ ul {
 }
 
 .a-menu-item:hover {
-    background-color: darkgrey;
+    color: #005ca0;
+    text-decoration: underline;
 }
 
 .dropdown {
@@ -116,6 +117,14 @@ ul {
     display: block;
 }
 
+.sep{
+    display: absolute;
+    width: 4px;
+    height: 21px;
+    background-image: url("images/menu_sep.png");
+    top: 5px;
+    margin: 0 8px;
+}
 /* end top menu */
 
 .main {
@@ -169,8 +178,9 @@ ul {
     opacity: 0.9;
     color: white;
     padding-right:7px;
+    padding-top:7px;
     float: right;
-    margin-top: 243px;
+    margin-top: 245px;
     margin-right: 7px;
     
 }
@@ -263,6 +273,7 @@ ul {
 
 .rm-white{
     margin-bottom: 5px;
+    margin-top:0;
 }
 
 .read-more > #read-more:hover{
@@ -275,6 +286,7 @@ ul {
 
 .rm-white>a{
     color:white;
+ 
 }
 
 .rm-map{
