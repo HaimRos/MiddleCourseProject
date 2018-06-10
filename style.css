@@ -265,6 +265,10 @@ ul {
     margin-bottom: 5px;
 }
 
+.read-more > #read-more:hover{
+    color:#005ca0;
+}
+
 .read-more>a{
     color:#72716d;
 }
