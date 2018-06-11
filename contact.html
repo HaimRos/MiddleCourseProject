@@ -221,26 +221,36 @@
     <!--start of contact main-->
     <main class="contact-main">
         <div class="side-menu">
-                <button type="submit">שלח</button>
+            <button type="submit">שלח</button>
         </div>
 
         <div class="contact">
-            <a href="index.html">עמוד הבית</a>
-            <span>> צור קשר</span>
-            <h3>צור קשר</h3>
+            <div id="tree-view">
+                <a href="index.html">עמוד הבית</a>
+                <span>> צור קשר</span>
+            </div>
+            <h1>צור קשר</h1>
             <div class="contact-form">
-                <h3>צור קשר</h3>
-                <h2>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h2>
-                <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+                <h2>צור קשר</h2>
+                <h3>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h3>
+                <p id="small">* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
                 <form class="form">
-                    <label for="name">* שם פרטי</label>
-                    <input type="text" name="name" id="name">
-                    <label for="sur-name">* שם משפחה</label>
-                    <input type="text" name="sur-name" id="sur-name">
-                    <label for="phone">* טלפון</label>
-                    <input type="number" name="phone" id="phone">
-                    <label for="email">* E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <div>
+                        <label for="name">* שם פרטי</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="sur-name">* שם משפחה</label>
+                        <input type="text" name="sur-name" id="sur-name">
+                    </div>
+                    <div>
+                        <label for="phone">* טלפון</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div>
+                        <label for="email">* E-mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
                     <textarea name="textarea" id="textarea" cols="37" rows="8">תוכן הפניה</textarea>
                     <button type="submit">שלח</button>
                 </form>
@@ -250,21 +260,21 @@
         </div>
         <div class="cards">
 
-            <div class="card-top">
-                <h3>פרטי יצירת קשר</h3>
-                <p>פז חברת נפט בע״מ</p>
+            <div class="info-card">
+                <h2>פרטי יצירת קשר</h2>
+                <h3>פז חברת נפט בע״מ</h3>
                 <p>יורו פארק, בניין הולנד</p>
                 <p>קיבוץ יקום 60972</p>
                 <p>טל. שירות לקוחות 1-800-774-774</p>
                 <p>פקס.09-8641714</p>
             </div>
 
-            <div class="card-bottom">
-                <h3>עוד בפז</h3>
-                <p>ליצירת קשר עם דוברת פז</p>
-                <a href="">לחצו כאן >></a>
-                <p>רוצים לעבוד בפז?</p>
-                <a href="">לחצו כאן >></a>
+            <div class="info-card">
+                <h2>עוד בפז</h2>
+                <h3>ליצירת קשר עם דוברת פז</h3>
+                <a href="" id="link">לחצו כאן >></a>
+                <h3>רוצים לעבוד בפז?</h3>
+                <a href="" id="link">לחצו כאן >></a>
 
             </div>
 
