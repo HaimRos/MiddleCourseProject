@@ -11,6 +11,9 @@ body {
     overflow-x: hidden;
 }
 
+ul{
+    list-style: none;
+}
 .header {
     display: block;
     background: linear-gradient(#8d8d8d, #8d8d8d, #8d8d8d, #8d8d8d, #a6a6a6);
@@ -300,6 +303,7 @@ body {
 
 .read-more>#read-more:hover {
     color: #005ca0;
+    /* change-bg();*/
 }
 
 .read-more>a {
