@@ -5,3 +5,7 @@ function changeBgHoverOn(id){
 function changeBgHoverOff(id){
     document.getElementById(id).src = "images/read_more_white.png";
 }
+
+function changeBgHoverOffYellow(id){
+    document.getElementById(id).src = "images/read_more_yellow.png";
+}
