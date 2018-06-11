@@ -115,6 +115,7 @@ ul {
 .a-menu-item:hover {
     color: #005ca0;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .a-menu-item-sub:hover {
@@ -391,6 +392,19 @@ ul {
     text-decoration:underline;
     color:#005ca0;
 }
+
+
+
+.arrow-left {
+    float:right;
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;  
+    border-right:5px solid #005ca0;
+    margin-top: 13px; 
+    margin-right: -11px;
+  }
 .contact-main {
     width: 900px;
     margin: 0 auto;
@@ -428,7 +442,7 @@ ul {
 }
 
 .info-card-bottom{
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .cards {
