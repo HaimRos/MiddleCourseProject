@@ -167,8 +167,6 @@ ul{
 
 .main {
     width: 900px;
-    height: 100%;
-    margin: 0;
     margin: 0 auto;
 }
 
@@ -371,4 +369,34 @@ ul{
 #facebook-icon {
     position: relative;
     top: 5px;
+}
+
+
+/* start css code for contact HTML*/
+
+.contact-main{
+    width: 900px;
+    margin: 0 auto;
+    padding-top:32px;
+}
+
+.side-menu{
+    border: 1px solid red;
+    float: right;
+    width: 122px;
+    margin-left:22px;
+    height: 100%;
+}
+
+.contact{
+    border: 1px solid green;
+    float: right;
+    width: 440px;
+    margin-left: 24px;
+}
+
+.cards{
+    border: 1px solid blue;
+    float: left;
+    width: 292px;
 }
